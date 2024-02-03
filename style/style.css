@@ -1,4 +1,18 @@
 *, html {
     box-sizing: content-box;
     overflow-x: hidden;
+    margin: 0;
+}
+
+header {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: grid;
+    place-content: center;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    height: 80px;
 }
